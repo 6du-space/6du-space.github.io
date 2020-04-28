@@ -1,0 +1,10 @@
+template
+  header.page
+    h1 {{h1}}
+    aside
+      x-ico.x(@click="x")
+  article(v-html="html")
+  footer
+    .name(v-if="meta['作者']") {{meta['作者']}}
+    .date(v-if="meta['日期']") {{meta['日期']}}
+

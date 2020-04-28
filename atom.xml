@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title><![CDATA[六度空间]]></title>
+<id>https://6du.space</id><link
+href="https://6du.space/atom.xml" rel="self"/><link
+href="https://6du.space"/><updated>2020-04-28T16:25:30.741Z</updated><entry><title type="html"><![CDATA[使用说明书]]></title><link href="https://6du.space/help"/><id>https://6du.space/help</id><content type="html"><![CDATA[<h1>使用说明书</h1>
+<p>若把编程和绘画一样视为艺术，就不难理解为何程序员总前仆后继地造轮子。<br>
+创作是种难以抑制自我表达冲动。<br>
+「六度空间」是我又一次新的尝试，尝试从这里出发，构建一个全新的互联网。<br>
+欢迎试用，更欢迎参与开发。</p>
+<p class="img"><span class=img><i><img src="/md/help.webp" alt="" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<hr>
+<p>六度空间，轻量灵活的静态博客。</p>
+<p>支持渲染 Markdown格式文本、Html网页 （ 注：请用UTF-8编码 ）。</p>
+<p>@[toc]</p>
+<h2>如何展示Html网页</h2>
+<p><a href="//pugjs.org/zh-cn">pug模板</a></p>
+<p><a href="//html-to-pug.com">html2pug</a></p>
+<h2>如何展示Markdown文章</h2>
+<p>文章想显示在列表页，必须加入六个连字符「------」，单独占一行，行首不能有空格。</p>
+<p>文章标题「#」号前面加空格，此文就不会出现在列表页（比如，尚未完成的草稿）。</p>
+<p>文章摘要写在六个连字符的分隔符之前，并用三个连字符「---」与文字的元信息(文章的描述信息)隔开。</p>
+<p>元信息格式如下</p>
+<pre><code>作者 : 练剑
+</code></pre>
+<p>在项目目录下运行<code>6du</code>，元信息中没有日期的文章会自动添加日期。</p>
+<p>如元信息中的日期为负数，文章即被置顶。（负1为第一篇，负2为第二篇…）。</p>
+<p>除了作者、日期外，元信息还支持<code>链接标题</code>。</p>
+<p>在文章插入<code>@[toc]</code> (独占一行)，将在展示时自动替换为文章的章节导航。</p>
+<p>还支持一些特殊的Markdown语法 ，如设置图片大小，详见 <a href="/markdown">六度空间 · Markdown语法</a>。</p>
+<p><a href="https://raw.githubusercontent.com/6du-space/sh/master/site/_/md/help.md">点此查阅本文源文件</a> 。</p>
+<p>作者 : 天驱 · 练剑</p>
+]]></content></entry><entry><updated>2019-11-03 12:29:38</updated><title type="html"><![CDATA[chrome插件 · 六度空间 · 短链接]]></title><link href="https://6du.space/chrome"/><id>https://6du.space/chrome</id><content type="html"><![CDATA[<h1>chrome插件 · 六度空间 · 短链接</h1>
+<p>发布我刚写的chrome 插件 ：可以生成短网址、二维码，一键复制标题和链接</p>
+<p class="img"><span class=img><i><img src="https://i.loli.net/2019/11/03/vlIV8f4WXE7gkYt.jpg" alt="屏幕截图" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<hr>
+<blockquote>
+<p>可以生成短链接（短网址）、二维码，一键复制标题和链接。</p>
+</blockquote>
+<p>现有的chrome插件，没有一个能自动复制并带上标题的，所以自己写了一个，很实用，欢迎试用。</p>
+<p>安装地址：<a href="https://t.cn/AiBLK07q">Chrome 网上应用店</a></p>
+<p class="img"><span class=img><i><img src="https://i.loli.net/2019/11/03/vlIV8f4WXE7gkYt.jpg" alt="屏幕截图" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<p>如果没法访问Chrome 网上应用店，可以按照以下步骤安装。</p>
+<ol>
+<li><a href="https://code.aliyun.com/6du.space/chrome/repository/archive.zip?ref=master">点击这里下载源码</a> ，并解压</li>
+<li>在Chrome浏览器中输入 <code>chrome://extensions</code> ，并开启开发者模式（点击右上角）</li>
+<li>点击「加载已解压的扩展程序」选择刚刚解压的目录</li>
+</ol>
+<p>最后，这是一个开源项目，欢迎参与改进。</p>
+<p>源码地址 ：<a href="https://code.aliyun.com/6du.space/chrome">阿里云code</a></p>
+<p>日期 : 2019-11-03 12:29:38</p>
+]]></content></entry><entry><updated>2019-10-16 11:54:53</updated><title type="html"><![CDATA[2019，畅想未来互联网]]></title><link href="https://6du.space/2019-image"/><id>https://6du.space/2019-image</id><content type="html"><![CDATA[<h1>2019，畅想未来互联网</h1>
+<p>这是集权化的互联网时代，寡头垄断了内容，个体被平台抑制，任其生杀予夺。</p>
+<p>人们创作了数字资产，却让平台瓜分了绝大部分的收益。就像中学教科书上写的：「资本家控制了生产工具，对劳动人民进行剥削」。</p>
+<p>2019年7月，维基百科创始人起草了<a href="/quote/declaration-of-digital-independence">《数字独立宣言》</a>，号召全世界的程序员们联合起来，一起推翻压迫人民数字帝国，为研发下一代去中心化的互联网而奋斗。</p>
+<p>我想起了马克思的那句名言：</p>
+<blockquote>
+<p>无产者在这个革命中<strong>失去的只是锁链。获得的将是整个世界</strong>。<br>
+全世界无产者，联合起来！</p>
+</blockquote>
+<p>互联网需要新的生产关系，2019，我畅想未来。</p>
+<p class="img"><span class=img><i><img src="/md/2019-image.webp" alt="" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<hr>
+<p><strong>命运的神奇，在于未来不可知。</strong></p>
+<p>1928年，井冈山被国民党围剿，伤亡惨重，林彪看不到希望，问毛泽东「红旗到底打得多久？」。</p>
+<p class="img"><span class=img><i><img src="/md/0day.flag.webp" alt="" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<p>这时候的他，猜不到一九四九年的开国大典。</p>
+<p>1969年，《中国共产党章程》破天荒地写入 : 「林彪同志是毛泽东同志的亲密战友和接班人」。</p>
+<p>林彪兴致勃勃、意气风发地重游井冈山，提诗填词。</p>
+<blockquote>
+<p>四十年前旧地，万千往事萦怀，英雄烈士没蒿莱，生死艰难度外。<br>
+志壮坚信马列，岂疑星火燎原，辉煌胜利共开颜，斗志不容稍减。</p>
+</blockquote>
+<p>这时的他，猜不到两年之后，他的故事在外蒙古大草原飞机坠毁中戛然而止。</p>
+<p><strong>命运的神奇，在于彼此相交织。</strong></p>
+<p>2018年，香港渣男在台湾杀害女友。</p>
+<p>随后，一系列风波接踵而至。</p>
+<p>蝴蝶效应般导致2019年中国封杀NBA。</p>
+<hr>
+<p>看不透的命运，猜不到的结局。</p>
+<p>你的故事，我的故事，我们的故事。</p>
+<p>写写字，记录我们亲历的历史。</p>
+<p>作者 : 天驱 · 练剑<br>
+日期 : 2019-10-16 11:54:53</p>
+]]></content></entry><entry><updated>2019-10-11 06:16:56</updated><title type="html"><![CDATA[故事的开始]]></title><link href="https://6du.space/0day"/><id>https://6du.space/0day</id><content type="html"><![CDATA[<h1>故事的开始</h1>
+<p>码字记录时代，文章沉淀历史。<br>
+我是大海中一朵小浪花，随波逐流，看云起云落，星辰出没。<br>
+江山如画，一时间多少豪杰。</p>
+<p class="img"><span class=img><i><img src="/md/0day.webp" alt="" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<hr>
+<p><strong>命运的神奇，在于未来不可知。</strong></p>
+<p>1928年，井冈山被国民党围剿，伤亡惨重，林彪看不到希望，问毛泽东「红旗到底打得多久？」。</p>
+<p class="img"><span class=img><i><img src="/md/0day.flag.webp" alt="" crossOrigin="" onload="_mdImg(this)"></i></span></p>
+<p>这时候的他，猜不到一九四九年的开国大典。</p>
+<p>1969年，《中国共产党章程》破天荒地写入 : 「林彪同志是毛泽东同志的亲密战友和接班人」。</p>
+<p>林彪兴致勃勃、意气风发地重游井冈山，提诗填词。</p>
+<blockquote>
+<p>四十年前旧地，万千往事萦怀，英雄烈士没蒿莱，生死艰难度外。<br>
+志壮坚信马列，岂疑星火燎原，辉煌胜利共开颜，斗志不容稍减。</p>
+</blockquote>
+<p>这时候的他，猜不到两年之后，他的故事在外蒙古大草原飞机坠毁中戛然而止。</p>
+<p><strong>命运的神奇，在于彼此相交织。</strong></p>
+<p>2018年，香港渣男在台湾杀害女友。</p>
+<p>随后，一系列风波接踵而至。</p>
+<p>蝴蝶效应般导致2019年中国封杀NBA。</p>
+<hr>
+<p>看不透的命运，猜不到的结局。</p>
+<p>你的故事，我的故事，我们的故事。</p>
+<p>写写字，记录我们亲历的历史。</p>
+<p>作者 : 天驱 · 练剑<br>
+日期 : 2019-10-11 06:16:56</p>
+]]></content></entry>
+</feed>

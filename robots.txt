@@ -1,0 +1,3 @@
+Sitemap: https://6du.space/sitemap.xml
+User-agent: *
+Disallow:

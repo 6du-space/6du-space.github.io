@@ -1,0 +1,16 @@
+txt:
+  title: 六度空间
+
+cdn:
+  npm: //cdn.jsdelivr.net/npm/6d
+  js: ''
+  img: ''
+  site: ''
+
+# 请替换为自己的百度统计 ( 注册入口 https://tongji.baidu.com )
+# 记得在代码管理 -> 单页应用设置 -> 启用单页应用数据统计
+# 请以域名开头，不要写协议
+tj: hm.baidu.com/hm.js?c0b408deb6b3a64353a68648b81f4d98
+
+url:
+  li: '|'

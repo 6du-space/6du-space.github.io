@@ -1,0 +1,10 @@
+sh: gitee.com/i6du/sh.git
+template: gitee.com/i6du/template.git
+plugin:
+  gitee.com/i6du/plugin.git : 
+    begin:
+      - ico
+    file:
+      md: md/.*\.md
+    path:
+      url: (md|pug)/.*\.(md|pug)

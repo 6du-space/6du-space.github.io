@@ -1,0 +1,24 @@
+link(rel="stylesheet" href="//at.alicdn.com/t/font_1451448_u1qno9eeyao.css")
+header.page
+  h1 六度空间 · 打造未来互联网的静态博客
+  aside
+    x-ico
+      a.logo.logo-telegram(href="//t.me/hi6du" style="color:#37A7DB")
+    x-ico
+      a.logo.logo-github(href="//github.com/6du-space/6du" style="color:#000")
+    x-ico
+      a.logo.logo-weibo(href="//weibo.com/6duspace" style="color:#f00")
+template
+  template(v-for="i in li")
+    template(v-if="typeof(i)=='string'")
+      h2.date
+        b.date
+          b {{i.split('-')[0]}}
+          b /
+          b {{i.split('-')[1]}}
+    li(v-else)
+      a.h2(
+        :href="i[0]"
+        :title="[i[2]?'作者 : '+i[2]:0,i[1]?'日期 : '+i[1]:0].filter(Boolean).join('\\n')"
+      ) ➟ {{i[3]}}
+      section(v-html="i[4]" v-if="i[4]")
